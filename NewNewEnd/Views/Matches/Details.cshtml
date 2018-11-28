@@ -1,0 +1,58 @@
+﻿@model NewNewEnd.Models.Match
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Match</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Venue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Venue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AmountPaid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AmountPaid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Forfeit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Forfeit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Member.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Member.Surname)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MatchId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

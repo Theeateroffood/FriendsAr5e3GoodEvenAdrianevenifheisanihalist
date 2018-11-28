@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="7502f0ef-9187-41b3-82b9-5876365ad165" ChangeDateTime="11/25/2018 21:58:13">
+    <Property Name="ElementName" Value="[dbo].[Member].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Member]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MemberId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5cea024c-a9ee-4683-bb58-d6bfaaf43928" ChangeDateTime="11/25/2018 22:01:58">
+    <Property Name="ElementName" Value="[dbo].[Match].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Match]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MatchId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3183a035-62bd-44d9-ad10-d361c5afc4ed" ChangeDateTime="11/25/2018 22:03:21">
+    <Property Name="ElementName" Value="[dbo].[Match].[DaterTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Match]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateTime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c14cf3e8-8b5a-47c8-9bab-1a756a75b669" ChangeDateTime="11/25/2018 22:05:38">
+    <Property Name="ElementName" Value="[dbo].[Match].[ManagerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Match]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MemberId" />
+  </Operation>
+</Operations>
